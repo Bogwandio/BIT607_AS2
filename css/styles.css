@@ -640,7 +640,7 @@ footer {
         background-color: #352289;
         z-index: 999;
         padding: 1rem 0;
-        margin-top: 5vh;
+        margin-top: 10vh;
     }
 
     #nav-menu-toggle:checked+.hamburger+.nav-links {
