@@ -267,7 +267,7 @@ main {
 }
 
 .page-header h1 {
-    font-size: 2rem;
+    font-size: 2em;
     margin-bottom: 1rem;
 }
 
@@ -363,7 +363,7 @@ main {
 .filters-section {
     display: flex;
     justify-content: flex-end;
-    font-size: 1.2rem;
+    font-size: 1.2em;
     font-weight: bold;
     margin-bottom: 1rem;
     margin-right: 2rem;
@@ -454,7 +454,7 @@ main {
 
 .booking-form h2, .contact-form h2 {
     margin: 0 auto 1rem;
-    font-size: 1.5rem;
+    font-size: 1.5em;
 }
 
 .booking-form label, .contact-form label {
@@ -610,6 +610,7 @@ footer {
         display: flex;
         align-items: center;
         margin-right: 1rem;
+        font-size: 1.2em;
     }
 
     .icon-container {
@@ -626,14 +627,12 @@ footer {
         align-items: center;
         display: none;
         position: absolute;
-        top: 0;
+        top: 5vh;
         left: 0;
         right: 0;
         background-color: #352289;
         z-index: 999;
         padding: 1rem 0;
-        margin-top: 5vh;
-        margin-right: 1rem;
     }
 
     #nav-menu-toggle:checked+.hamburger+.nav-links {
@@ -735,6 +734,11 @@ footer {
 
     .booking-form button {
         width: 100%;
+    }
+
+    .icon, .social-icon, .filter-icon {
+        height: 1.5rem;
+        width: 1.5rem;
     }
 }
 
